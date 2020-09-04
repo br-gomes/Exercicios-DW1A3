@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>HTML5</title>
+    <style type="text/css">
+        table {
+            border: none;
+        }
+
+        th,
+        td {
+            border: none;
+            background-color: #dddddd;
+            padding: 5px;
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th></th>
+            <th>7:00</th>
+            <th>8:00</th>
+            <th>9:00</th>
+            <th>10:00</th>
+        </tr>
+        <tr>
+            <th>Segunda-feira</th>
+            <td colspan="2">Matemática</td>
+            <td>Português</td>
+            <td>Intervalo</td>
+        </tr>
+        <tr>
+            <th>Terça-feira</th>
+            <td>Biologia</td>
+            <td colspan="2">Português</td>
+            <td>Intervalo</td>
+        </tr>
+        <tr>
+            <th>Quarta-feira</th>
+            <td colspan="2">Física</td>
+            <td>Inglês</td>
+            <td>Intervalo</td>
+        </tr>
+        <tr>
+            <th>Quinta-feira</th>
+            <td>Geografia</td>
+            <td>Sociologia</td>
+            <td>Filosofia</td>
+            <td>Intervalo</td>
+        </tr>
+        <tr>
+            <th>Sexta-feira</th>
+            <td>Química</td>
+            <td colspan="2">Educação Física</td>
+            <td>Intervalo</td>
+        </tr>
+    </table>
+    <hr>
+    <form action="http://www.example.com/login.php">
+        <p>Username:
+            <input type="text" name="username" size="15" maxlength="30" />
+        </p>
+        <p>Password:
+            <input type="password" name="password" size="15" maxlength="30" />
+        </p>
+        <hr>
+    </form>
+    <form action="http://www.example.com/profile.php">
+        <p>Por favor, selecione o seu gênero favorito:
+            <br>
+            <input type="radio" name="genre" value="Rock" /> Rock
+            <input type="radio" name="genre" value="hiphop" checked="checked" /> Hip Hop
+            <input type="radio" name="genre" value="jaz" /> Jazz
+        </p>
+        <p>Por favor, selecione seu(s) serviços de música favorito(s):
+            <br>
+            <input type="checkbox" name="service" value="spotify" /> Spotify
+            <input type="checkbox" name="service" value="youtube" checked="checked" /> YouTube
+            <input type="checkbox" name="service" value="deezer" checked="checked" /> Deezer
+        </p>
+        <p>Em qual dispositivo você ouve música?</P>
+        <select name="devices">
+            <option value="computador">Computador</option>
+            <option value="smartfone">Smartfone</option>
+            <option value="som">Aparelho de som</option>
+        </select>
+        <hr>
+    </form>
+    <form action="http://www.example.com/upload.php" method="post">
+        <p>Upload da música em MP3:</p>
+        <input type="file" name="user-song" /><br>
+        <input type="submit" value="Upload" />
+    </form>
+    <form action="http://www.example.com/subscribe.php">
+        <p>Se inscreva na nossa lista de e-mail:</p>
+        <input type="text" name="email" />
+        <input type="submit" name="subscribe" value="Subscribe" />
+        <hr>
+    </form>
+    <form action="http://www.example.com/search.php">
+        <p>Pesquisa:</p>
+        <input type="search" name="search" placeholder="Enter" />
+        <input type="submit" value="Search">
+        <hr>
+    </form>
+    <form action="http://www.example.com/subscribe.php">
+        <label>Idade: <input type="text" name="age" /></label>
+        <br>
+        Gênero:
+        <input id="female" type="radio" name="gender" value="f">
+        <label for="female">Feminino</label>
+        <input id="male" type="radio" name="gender" value="m">
+        <label for="male">Masculino</label>
+        <hr>
+    </form>
+    <form action="http://www.example.com/subscribe.php">
+        <fieldset>
+            <legend>Detalhes do contado</legend>
+            <label>E-mail:<br><input type="text" name="email" /></label><br>
+            <label>Celular:<br><input type="text" name="mobile" /></label><br>
+            <label>Telefone:<br><input type="text" name="telephone" /></label><br>
+        </fieldset>
+        <hr>
+    </form>
+    <form action="htt://www.example.com/bookins/" method="POST">
+        <label for="username">Data de nascimento:</label>
+        <input type="date" name="depart" />
+        <input type="submit" value="Enviar">
+    </form>
+
+
+</body>
+
+</html>
